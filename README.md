@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/Sp2736">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=4da6ff&center=true&vCenter=true&width=800&lines=Engineering+Robust+Full-Stack+Architectures;Cloud+Computing+%26+DevOps+Integration;Data+Analytics+%26+Business+Intelligence;Passionate+about+Agile+%26+Team+Leadership;Crafting+Poetry+%26+Publishing+Books" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&pause=1000&color=4da6ff&center=true&vCenter=true&width=800&lines=Engineering+Robust+Full-Stack+Architectures;Exploring+Data+Science+%26+Analytics;Diving+Deep+into+Cyber+Security;Passionate+about+Agile+%26+Team+Leadership;Crafting+Poetry+%26+Publishing+Books" alt="Typing SVG" />
   </a>
 </p>
 
@@ -14,13 +14,13 @@
   <h2>SYSTEM ARCHITECTURE & PROFILE</h2>
 </div>
 
-I am a Software Engineering student at **Charusat University** who operates at the intersection of complex logic and creative design. My journey started in middle school by writing VBScript, Batchscript, and exploring core system mechanics. Today, I architect enterprise-grade full-stack applications, deploy cloud pipelines, and analyze cybersecurity vulnerabilities. 
+I am a Software Engineering student at **Charusat University** who operates at the intersection of complex logic and creative design. My journey started in middle school by writing VBScript, Batchscript, and exploring core system mechanics. Today, I am deeply invested in building enterprise-grade full-stack applications, exploring data science models, and analyzing cyber security vulnerabilities. 
 
-Beyond the screen, I am deeply passionate about team leadership, Scrum Master methodologies, and professional communication. I believe in writing code that scales and leading teams that thrive.
+Beyond the screen, I am passionate about team leadership, Scrum Master methodologies, and professional communication. I believe in writing code that scales and leading teams that thrive.
 
 <div align="center">
   <p>
-    <strong>Core Focus:</strong> Full-Stack Development | Data Analytics | Computer Organization & Architecture
+    <strong>Core Focus:</strong> Full-Stack Development | Data Science & Analytics | Cyber Security
   </p>
 </div>
 
