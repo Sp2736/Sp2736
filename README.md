@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0044cc&height=250&section=header&text=Swayam%20Patel&fontSize=80&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20|%20Full-Stack%20Architect%20|%20Author&descAlignY=55&descAlign=50" alt="Header" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=001133&height=250&section=header&text=Swayam%20Patel&fontSize=80&fontColor=4da6ff&animation=fadeIn&fontAlignY=35&desc=Software%20Engineer%20|%20Full-Stack%20Architect%20|%20Author&descAlignY=55&descAlign=50" alt="Header" />
 </div>
 
 <p align="center">
@@ -8,15 +8,15 @@
   </a>
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
   <h2>SYSTEM ARCHITECTURE & PROFILE</h2>
 </div>
 
-I am a Software Engineering student at **Charusat University** who operates at the intersection of complex logic and creative design. My journey started in middle school by writing VBScript, Batchscript, and exploring core system mechanics. Today, I am deeply invested in building enterprise-grade full-stack applications, exploring data science models, and analyzing cyber security vulnerabilities. 
-
-Beyond the screen, I am passionate about team leadership, Scrum Master methodologies, and professional communication. I believe in writing code that scales and leading teams that thrive.
+<p align="center">
+  I am a Software Engineering student at <b>Charusat University</b> operating at the intersection of complex logic and creative design. From engineering core system mechanics with VBScript and Batchscript to architecting enterprise-grade full-stack applications, I build systems that scale.
+</p>
 
 <div align="center">
   <p>
@@ -24,143 +24,143 @@ Beyond the screen, I am passionate about team leadership, Scrum Master methodolo
   </p>
 </div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
-  <h2>TECHNICAL ARSENAL</h2>
+  <h2>THE UNIFIED ARSENAL</h2>
 </div>
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <strong>Core Languages</strong><br><br>
-      <img src="https://img.shields.io/badge/C-000000?style=for-the-badge&logo=c&logoColor=4da6ff" alt="C" />
-      <img src="https://img.shields.io/badge/C%2B%2B-000000?style=for-the-badge&logo=c%2B%2B&logoColor=4da6ff" alt="C++" />
-      <img src="https://img.shields.io/badge/Java-000000?style=for-the-badge&logo=openjdk&logoColor=4da6ff" alt="Java" />
-      <img src="https://img.shields.io/badge/C%23-000000?style=for-the-badge&logo=c-sharp&logoColor=4da6ff" alt="C#" />
-      <img src="https://img.shields.io/badge/Assembly-000000?style=for-the-badge&logo=nasm&logoColor=4da6ff" alt="Assembly" /><br>
-      <img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=4da6ff" alt="JavaScript" />
-      <img src="https://img.shields.io/badge/TypeScript-000000?style=for-the-badge&logo=typescript&logoColor=4da6ff" alt="TypeScript" /><br>
-      <img src="https://img.shields.io/badge/PHP-000000?style=for-the-badge&logo=php&logoColor=4da6ff" alt="PHP" />
-      <img src="https://img.shields.io/badge/VBScript-000000?style=for-the-badge&logo=windows&logoColor=4da6ff" alt="VBScript" />
-      <img src="https://img.shields.io/badge/Batch-000000?style=for-the-badge&logo=windows-terminal&logoColor=4da6ff" alt="Batchscript" />
-    </td>
-    <td align="center" width="50%" valign="top">
-      <strong>Frameworks & Web</strong><br><br>
-      <img src="https://img.shields.io/badge/ReactJS-000000?style=for-the-badge&logo=react&logoColor=4da6ff" alt="React" />
-      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=4da6ff" alt="NextJS" />
-      <img src="https://img.shields.io/badge/Node.js-000000?style=for-the-badge&logo=node.js&logoColor=4da6ff" alt="NodeJS" /><br>
-      <img src="https://img.shields.io/badge/HTML5-000000?style=for-the-badge&logo=html5&logoColor=4da6ff" alt="HTML5" />
-      <img src="https://img.shields.io/badge/CSS3-000000?style=for-the-badge&logo=css3&logoColor=4da6ff" alt="CSS3" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <br><strong>Cloud, DevOps & Automation</strong><br><br>
-      <img src="https://img.shields.io/badge/Google_Cloud-000000?style=for-the-badge&logo=google-cloud&logoColor=4da6ff" alt="Google Cloud" />
-      <img src="https://img.shields.io/badge/Azure_DevOps-000000?style=for-the-badge&logo=azure-devops&logoColor=4da6ff" alt="Azure DevOps" /><br>
-      <img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=4da6ff" alt="Docker" />
-      <img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=4da6ff" alt="n8n" /><br>
-      <img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=4da6ff" alt="Git" />
-      <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=4da6ff" alt="GitHub" />
-    </td>
-    <td align="center" width="50%" valign="top">
-      <br><strong>Databases & Analytics</strong><br><br>
-      <img src="https://img.shields.io/badge/MongoDB-000000?style=for-the-badge&logo=mongodb&logoColor=4da6ff" alt="MongoDB" />
-      <img src="https://img.shields.io/badge/Oracle-000000?style=for-the-badge&logo=oracle&logoColor=4da6ff" alt="Oracle" />
-      <img src="https://img.shields.io/badge/MSSQL-000000?style=for-the-badge&logo=microsoft-sql-server&logoColor=4da6ff" alt="MSSQL" /><br>
-      <img src="https://img.shields.io/badge/SQL-000000?style=for-the-badge&logo=mysql&logoColor=4da6ff" alt="SQL" />
-      <img src="https://img.shields.io/badge/NoSQL-000000?style=for-the-badge&logo=data&logoColor=4da6ff" alt="NoSQL" /><br>
-      <img src="https://img.shields.io/badge/Power_BI-000000?style=for-the-badge&logo=powerbi&logoColor=4da6ff" alt="Power BI" />
-      <img src="https://img.shields.io/badge/Looker_Studio-000000?style=for-the-badge&logo=google&logoColor=4da6ff" alt="Looker" />
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=c,cpp,java,cs,js,ts,php,react,nextjs,nodejs,html,css,gcp,azure,docker,git,github,mongodb,mysql,ubuntu,kali,windows&theme=dark&perline=11" />
+  </a>
+</p>
 
-<br>
+<p align="center">
+  <strong>Specialized Tech & Analytics</strong><br>
+  <img src="https://img.shields.io/badge/Assembly-000000?style=for-the-badge&logo=nasm&logoColor=4da6ff&labelColor=001133" alt="Assembly" />
+  <img src="https://img.shields.io/badge/VBScript-000000?style=for-the-badge&logo=windows&logoColor=4da6ff&labelColor=001133" alt="VBScript" />
+  <img src="https://img.shields.io/badge/Batch-000000?style=for-the-badge&logo=windows-terminal&logoColor=4da6ff&labelColor=001133" alt="Batch" />
+  <img src="https://img.shields.io/badge/Oracle-000000?style=for-the-badge&logo=oracle&logoColor=4da6ff&labelColor=001133" alt="Oracle" />
+  <img src="https://img.shields.io/badge/MSSQL-000000?style=for-the-badge&logo=microsoft-sql-server&logoColor=4da6ff&labelColor=001133" alt="MSSQL" />
+  <img src="https://img.shields.io/badge/NoSQL-000000?style=for-the-badge&logo=data&logoColor=4da6ff&labelColor=001133" alt="NoSQL" />
+  <img src="https://img.shields.io/badge/n8n-000000?style=for-the-badge&logo=n8n&logoColor=4da6ff&labelColor=001133" alt="n8n" />
+  <img src="https://img.shields.io/badge/Power_BI-000000?style=for-the-badge&logo=powerbi&logoColor=4da6ff&labelColor=001133" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Looker_Studio-000000?style=for-the-badge&logo=google&logoColor=4da6ff&labelColor=001133" alt="Looker" />
+</p>
+
+<p align="center">
+  <strong>Soft Skills & Leadership</strong><br>
+  <img src="https://img.shields.io/badge/Project_Management-000000?style=for-the-badge&logo=target&logoColor=4da6ff&labelColor=001133" alt="Project Management" />
+  <img src="https://img.shields.io/badge/Team_Leadership-000000?style=for-the-badge&logo=strategy&logoColor=4da6ff&labelColor=001133" alt="Team Leadership" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-000000?style=for-the-badge&logo=openai&logoColor=4da6ff&labelColor=001133" alt="Prompt Engineering" />
+  <img src="https://img.shields.io/badge/Professional_Speaking-000000?style=for-the-badge&logo=mic&logoColor=4da6ff&labelColor=001133" alt="Professional Speaking" />
+  <img src="https://img.shields.io/badge/Communication-000000?style=for-the-badge&logo=wechat&logoColor=4da6ff&labelColor=001133" alt="Communication" />
+</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
-  <strong>Operating Environments</strong><br>
-  <img src="https://img.shields.io/badge/Windows_11-000000?style=for-the-badge&logo=windows-11&logoColor=4da6ff" alt="Windows 11" />
-  <img src="https://img.shields.io/badge/Ubuntu_25.05-000000?style=for-the-badge&logo=ubuntu&logoColor=4da6ff" alt="Ubuntu" />
-  <img src="https://img.shields.io/badge/Kali_Linux-000000?style=for-the-badge&logo=kali-linux&logoColor=4da6ff" alt="Kali Linux" />
+  <h2>CERTIFICATION MATRIX</h2>
 </div>
 
-<br>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=1500&color=4da6ff&center=true&vCenter=true&width=600&lines=>_ACCESSING_SECURE_RECORDS...;>_DECRYPTING_CREDENTIALS...;>_MODULES_LOADED_SUCCESSFULLY." alt="Booting Sequence" />
+</p>
 
-<div align="center">
-  <strong>Soft Skills & Management</strong><br>
-  <img src="https://img.shields.io/badge/Project_Management-000000?style=for-the-badge&logo=target&logoColor=4da6ff" alt="Project Management" />
-  <img src="https://img.shields.io/badge/Team_Leadership-000000?style=for-the-badge&logo=strategy&logoColor=4da6ff" alt="Team Leadership" />
-  <img src="https://img.shields.io/badge/Prompt_Engineering-000000?style=for-the-badge&logo=openai&logoColor=4da6ff" alt="Prompt Engineering" />
-  <img src="https://img.shields.io/badge/Professional_Speaking-000000?style=for-the-badge&logo=mic&logoColor=4da6ff" alt="Professional Speaking" />
-  <img src="https://img.shields.io/badge/Communication-000000?style=for-the-badge&logo=wechat&logoColor=4da6ff" alt="Communication" />
-</div>
+<p align="center">
+  <span style="color: #4da6ff; font-family: monospace;"><b>// VENDOR: GOOGLE :: CLEARANCE LEVEL: PROFESSIONAL</b></span><br>
+  <img src="https://img.shields.io/badge/VERIFIED-AI_Essentials-000000?style=for-the-badge&logo=google&logoColor=4da6ff&labelColor=001133" />
+  <img src="https://img.shields.io/badge/VERIFIED-Prompting_Essentials-000000?style=for-the-badge&logo=google&logoColor=4da6ff&labelColor=001133" />
+  <img src="https://img.shields.io/badge/VERIFIED-People_Management-000000?style=for-the-badge&logo=google&logoColor=4da6ff&labelColor=001133" />
+  <img src="https://img.shields.io/badge/VERIFIED-Stakeholder_Mgmt-000000?style=for-the-badge&logo=google&logoColor=4da6ff&labelColor=001133" />
+</p>
 
----
+<p align="center">
+  <span style="color: #4da6ff; font-family: monospace;"><b>// VENDOR: META :: CLEARANCE LEVEL: FULL-STACK</b></span><br>
+  <img src="https://img.shields.io/badge/VERIFIED-Frontend_Development-000000?style=for-the-badge&logo=meta&logoColor=4da6ff&labelColor=001133" />
+  <img src="https://img.shields.io/badge/VERIFIED-JS_Programming-000000?style=for-the-badge&logo=meta&logoColor=4da6ff&labelColor=001133" />
+  <img src="https://img.shields.io/badge/VERIFIED-Version_Control-000000?style=for-the-badge&logo=meta&logoColor=4da6ff&labelColor=001133" />
+  <img src="https://img.shields.io/badge/VERIFIED-HTML%2FCSS_%26_DBMS-000000?style=for-the-badge&logo=meta&logoColor=4da6ff&labelColor=001133" />
+</p>
+
+<p align="center">
+  <span style="color: #4da6ff; font-family: monospace;"><b>// VENDOR: IBM & CORE :: CLEARANCE LEVEL: ENGINEERING</b></span><br>
+  <img src="https://img.shields.io/badge/VERIFIED-IBM_Data_Science-000000?style=for-the-badge&logo=ibm&logoColor=4da6ff&labelColor=001133" />
+  <img src="https://img.shields.io/badge/VERIFIED-Java_Hierarchies-000000?style=for-the-badge&logo=java&logoColor=4da6ff&labelColor=001133" />
+  <img src="https://img.shields.io/badge/VERIFIED-Modern_C%2B%2B-000000?style=for-the-badge&logo=c%2B%2B&logoColor=4da6ff&labelColor=001133" />
+  <img src="https://img.shields.io/badge/VERIFIED-NISP_IIC_Ambassador-000000?style=for-the-badge&logo=bookmeter&logoColor=4da6ff&labelColor=001133" />
+</p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
   <h2>FEATURED ENGINEERING</h2>
 </div>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <strong>ARCADE</strong><br>
-      A dynamic, role-based access control university hub application. Engineered to manage complex workflows between Admins, Students, Faculty, and HODs using robust routing and state management.<br>
-      <a href="https://github.com/Sp2736/arcade">View Source Code</a>
-    </td>
-    <td width="50%" valign="top">
-      <strong>BRAINBIN</strong><br>
-      A specialized software architecture project demonstrating structured code methodologies and modern development practices.<br>
-      <a href="https://github.com/Sp2736/BrainBin">View Source Code</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <br><strong>Dark Angel (VS Code Theme)</strong><br>
-      A meticulously designed dark-mode theme engineered for prolonged coding sessions, reducing eye strain while maintaining high syntax contrast.<br>
-      <a href="https://github.com/Sp2736/dark-angel">View Theme</a>
-    </td>
-    <td width="50%" valign="top">
-      <br><strong>White Devil (VS Code Theme)</strong><br>
-      A clean, high-visibility light-mode theme designed for maximum clarity in brightly lit environments.<br>
-      <a href="https://github.com/Sp2736/white-devil">View Theme</a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Sp2736/arcade">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Sp2736&repo=arcade&theme=dark&bg_color=000000&hide_border=true&title_color=4da6ff&text_color=ffffff&icon_color=4da6ff" alt="ARCADE" width="48%" />
+  </a>
+  <a href="https://github.com/Sp2736/BrainBin">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Sp2736&repo=BrainBin&theme=dark&bg_color=000000&hide_border=true&title_color=4da6ff&text_color=ffffff&icon_color=4da6ff" alt="BRAINBIN" width="48%" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://github.com/Sp2736/dark-angel">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Sp2736&repo=dark-angel&theme=dark&bg_color=000000&hide_border=true&title_color=4da6ff&text_color=ffffff&icon_color=4da6ff" alt="Dark Angel" width="48%" />
+  </a>
+  <a href="https://github.com/Sp2736/white-devil">
+    <img src="https://github-readme-stats-eight-theta.vercel.app/api/pin/?username=Sp2736&repo=white-devil&theme=dark&bg_color=000000&hide_border=true&title_color=4da6ff&text_color=ffffff&icon_color=4da6ff" alt="White Devil" width="48%" />
+  </a>
+</p>
 
-<br>
+<blockquote>
+  <b>OPEN SOURCE INITIATIVE: The Data Structure Visualizer</b><br>
+  <i>Currently seeking contributors and co-developers.</i><br>
+  I am designing a Visual Studio Code extension aimed at revolutionizing how computer science students learn data structures. The objective is to create live, diagrammatic representations of in-memory data (e.g., dynamic traversal arrows for Linked Lists). If you have experience with the VS Code Extension API or rendering SVGs, I invite you to collaborate with me to bring this architectural challenge to life.
+</blockquote>
 
-> **OPEN SOURCE INITIATIVE: The Data Structure Visualizer**
-> *Currently seeking contributors and co-developers.*
-> I am designing a Visual Studio Code extension aimed at revolutionizing how computer science students learn data structures. The objective is to create live, diagrammatic representations of in-memory data. For example, when traversing a Linked List, the extension will dynamically generate visual arrows indicating exact pointer references in real-time. If you have experience with the VS Code Extension API, TypeScript, or rendering SVGs, I invite you to collaborate with me to bring this architectural challenge to life.
-
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
   <h2>BEYOND THE TERMINAL</h2>
 </div>
 
-### 📖 Author: *Before I Learned Goodbye*
-I am incredibly proud to be the author of **Before I Learned Goodbye**, a poetry collection published by Bookleaf Publication. Crafting these poems was a deeply personal journey, allowing me to bridge the highly logical world of software engineering with the profound emotional resonance of creative writing.
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Author: <i>Before I Learned Goodbye</i></h3>
+      I am incredibly proud to be the author of <b>Before I Learned Goodbye</b>, a poetry collection published by Bookleaf Publication. Crafting these poems was a deeply personal journey, allowing me to bridge the highly logical, structured world of software engineering with the profound emotional resonance of creative writing.
+    </td>
+    <td width="50%" valign="top">
+      <h3>Hobbies & Lifestyle</h3>
+      When I am not debugging code or writing poetry, I am fueling my creativity through motion and exploration:<br><br>
+      <kbd>Music</kbd> 
+      <kbd>Cycling</kbd> 
+      <kbd>Gyming</kbd> 
+      <kbd>Sketching</kbd> 
+      <kbd>Travelling</kbd> 
+      <kbd>Trekking</kbd> 
+      <kbd>Adventure</kbd> 
+      <kbd>Wall Punches</kbd> 
+      <kbd>Coffee</kbd>
+    </td>
+  </tr>
+</table>
 
-### ⚡ Hobbies & Lifestyle
-When I am not debugging code or writing poetry, I am fueling my creativity through motion and exploration. My downtime consists of:
-`Music` • `Cycling` • `Gyming` • `Sketching` • `Travelling` • `Trekking` • `Adventure Activities` • `Wall Punches` • `Coffee`
-
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
   <h2>SYSTEM ANALYTICS</h2>
 </div>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sp2736&layout=compact&theme=transparent&hide_border=true&bg_color=050914&title_color=4da6ff&text_color=ffffff&icon_color=4da6ff" alt="Top Languages" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api?username=Sp2736&show_icons=true&theme=transparent&hide_border=true&bg_color=050914&title_color=4da6ff&text_color=ffffff&icon_color=4da6ff" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Sp2736&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=4da6ff&text_color=ffffff&icon_color=4da6ff" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Sp2736&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=4da6ff&text_color=ffffff&icon_color=4da6ff" alt="GitHub Stats" width="48%" />
 </p>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <div align="center">
   <h2>ESTABLISH CONNECTION</h2>
@@ -168,13 +168,13 @@ When I am not debugging code or writing poetry, I am fueling my creativity throu
 
 <p align="center">
   <a href="https://www.linkedin.com/in/swayam-patel-316ba5317">
-    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=4da6ff" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=4da6ff&labelColor=001133" alt="LinkedIn" />
   </a>
   <a href="https://instagram.com/sp_27.03">
-    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=4da6ff" alt="Instagram" />
+    <img src="https://img.shields.io/badge/Instagram-000000?style=for-the-badge&logo=instagram&logoColor=4da6ff&labelColor=001133" alt="Instagram" />
   </a>
 </p>
 
 <p align="center">
-  <span style="color: #4da6ff;"><i>Written by logic, designed by creativity.</i></span>
+  <span style="color: #4da6ff; font-family: monospace;"><i>// Written by logic, designed by creativity.</i></span>
 </p>
