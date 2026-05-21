@@ -5,9 +5,6 @@
 <div align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=22&pause=900&color=4da6ff&center=true&vCenter=true&width=950&lines=_%20Architecting+Full-Stack+Systems+That+Scale;_%20Data+Science+%26+Advanced+Analytics;_%20Cyber+Security+%26+Ethical+Hacking;_%20Logical+Reasoning+%7C+Problem+Solving+%7C+Systems+Thinking;_%20Author+%7C+Poet+%7C+Published+by+Bookleaf+Publication;_%20AI+Explorer+%7C+Builder+%7C+Always+Learning" />
 </div>
-
-<img src="https://raw.githubusercontent.com/Sp2736/Sp2736/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Snake animation" />
-
 <br>
 
 <div align="center">
