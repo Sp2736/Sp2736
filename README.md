@@ -92,24 +92,7 @@ flowchart LR
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-## Deployed Systems
-
-<div align="center">
-
-| | Project | Description | Stack | Explore |
-|:---:|:---|:---|:---|:---:|
-| 🎓 | **ARCADE** | A centralized, role-based digital ecosystem unifying verified academic resources and structured learning roadmaps within a university environment. | React · Node.js · Express · MongoDB | [Architecture](https://swayam-patel-v1.vercel.app/architecture/arcade.html) |
-| 🧠 | **BRAINBIN** | A smart knowledge management and note-taking tool for organizing thoughts, code snippets, and ideas in one place. | React · TypeScript · Next.js | [Architecture](https://swayam-patel-v1.vercel.app/architecture/brainbin.html) |
-| 📈 | **DATAMIND** | An autonomous, LLM-powered EDA framework that auto-generates research questions, writes self-correcting analysis code, and visualizes insights from raw datasets. | Python · LLMs · Data Science · React | [Architecture](https://swayam-patel-v1.vercel.app/architecture/datamind.html) |
-| 🌌 | **Wander-n-Wonder** | A premium digital-garden blogging platform with a frosted-glass reader UI and a private Creator Studio for drafting posts and tracking analytics. | Next.js · Markdown | [Live](https://wander-n-wonder.vercel.app) |
-| 🧩 | **AI Logic Commenter** | A VS Code extension that auto-generates logic-focused documentation for selected code, powered by Gemini 2.5 Flash. | TypeScript · Gemini API | [Marketplace](https://marketplace.visualstudio.com/items?itemName=sp2736.logic-commenter) |
-| 🌑 | **Dark Angel** | A deep-blue VS Code dark theme built for long coding sessions. | VS Code Theme | [Marketplace](https://marketplace.visualstudio.com/items?itemName=sp2736.dark-angel-by-sp) |
-| ☀️ | **White Devil** | A crisp, minimal VS Code light theme built for clarity and daylight coding. | VS Code Theme | [Marketplace](https://marketplace.visualstudio.com/items?itemName=sp2736.white-devil-by-sp) |
-| 🎵 | **Suno AI Tracks** | AI-generated music compositions — prompt-engineered original tracks across genres. | Generative Audio | [Listen](https://suno.com/@sp2736) |
-
-</div>
-
-<sub>Full write-ups, live demos, and case studies for every deployment live on the <a href="https://swayam-patel-v1.vercel.app">portfolio</a>.</sub>
+<sub>Full write-ups, live demos, and case studies for every project live on the <a href="https://swayam-patel-v1.vercel.app">portfolio</a>.</sub>
 
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4520-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
