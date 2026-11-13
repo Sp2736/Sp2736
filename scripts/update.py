@@ -61,17 +61,27 @@ def fetch_deploys(repos):
             pass
     return out
 
+MASTERY_URL = os.environ.get("MASTERYOS_STATS_URL") or "https://mastery-os-omega.vercel.app/api/public/swayam/stats"
+LEETCODE_USER = os.environ.get("LEETCODE_USER", "_sp_1")
+
 def fetch_mastery():
-    url = os.environ.get("MASTERYOS_STATS_URL")
-    if not url:
-        return None
-    h = {}
-    if os.environ.get("MASTERYOS_STATS_TOKEN"):
-        h["Authorization"] = "Bearer " + os.environ["MASTERYOS_STATS_TOKEN"]
     try:
-        return http(url, headers=h)
+        return http(MASTERY_URL)
     except Exception as e:
         print("masteryOS fetch failed:", e)
+        return None
+
+def fetch_leetcode():
+    """same source and fields as the portfolio's leetcode widget (alfa-leetcode-api)"""
+    try:
+        d = http(f"https://alfa-leetcode-api.onrender.com/{LEETCODE_USER}/profile")
+        m = d.get("matchedUserStats") or {}
+        pick = lambda k: next((x.get("submissions", 0) for x in m.get(k, []) if x.get("difficulty") == "All"), 0)
+        tot, ac = pick("totalSubmissionNum"), pick("acSubmissionNum")
+        return {k: d.get(k, 0) for k in ("totalSolved", "totalQuestions", "easySolved", "totalEasy",
+                "mediumSolved", "totalMedium", "hardSolved", "totalHard", "ranking")} | {"acceptance": 100 * ac / tot if tot else 0}
+    except Exception as e:
+        print("leetcode fetch failed:", e)
         return None
 
 # ---------- svg ----------
@@ -137,24 +147,52 @@ def activity_svg(days):
     return card(W, H, s)
 
 def mastery_svg(m):
-    W, H = 900, 230
-    s = t(25, 34, (m or {}).get("title", "masteryOS utilisation"), 17, TEXT, 600)
+    W = 900
     if not m:
-        s += t(W / 2, 120, "masteryOS stats not connected yet - set MASTERYOS_STATS_URL", 14, MUTED, 400, "middle")
-        return card(W, H, s)
-    ms = m.get("metrics", [])[:5]
-    for i, it in enumerate(ms):
-        cx = 25 + (W - 50) * (i + .5) / max(len(ms), 1)
-        s += t(cx, 82, it["value"], 26, ACC, 700, "middle") + t(cx, 102, it["label"], 12, MUTED, 400, "middle")
-    ser = (m.get("series") or {}).get("points", [])[-30:]
-    if len(ser) > 1:
-        mx = max(p["value"] for p in ser) or 1
-        X = lambda i: 40 + (W - 80) * i / (len(ser) - 1)
-        Y = lambda v: 200 - 70 * v / mx
-        line = " ".join(f"{X(i):.1f},{Y(p['value']):.1f}" for i, p in enumerate(ser))
-        s += (f'<polygon points="40,200 {line} {W-40},200" fill="{ACC}" fill-opacity=".15"/>'
-              f'<polyline points="{line}" fill="none" stroke="{ACC}" stroke-width="2"/>'
-              + t(40, 220, (m["series"].get("label") or "") + " - last 30 days", 11, MUTED))
+        return card(W, 120, t(25, 34, "masteryOS", 17, TEXT, 600) + t(W / 2, 80, "masteryOS stats unavailable right now - will retry on the next run", 13, MUTED, 400, "middle"))
+    sk = (m.get("leetcode") or {}).get("skills", [])[:6]
+    H = max(200, 80 + 34 * len(sk))
+    st = m.get("streak") or {}
+    s = t(25, 34, "masteryOS utilisation", 17, TEXT, 600)
+    s += t(110, 100, st.get("current", 0), 44, ACC, 700, "middle") + t(110, 124, "day streak", 12, MUTED, 400, "middle")
+    s += t(110, 150, f"best {st.get('longest', 0)}d", 12, TEXT, 600, "middle")
+    s += t(110, 176, f"{(m.get('leetcode') or {}).get('totalSkills', len(sk))} skills tracked", 12, MUTED, 400, "middle")
+    s += f'<line x1="225" x2="225" y1="55" y2="{H-25}" stroke="{BORDER}"/>'
+    for i, k in enumerate(sk):
+        y = 76 + i * 34
+        done, tot = k.get("completedProblems", 0), k.get("totalProblems", 0)
+        w = 430 * (done / tot) if tot else 0
+        s += t(250, y, k.get("title", ""), 12.5, TEXT) + t(W - 30, y, f"{done}/{tot}", 12, MUTED, 400, "end")
+        s += f'<rect x="250" y="{y+8}" width="430" height="7" rx="3.5" fill="{BORDER}"/><rect x="250" y="{y+8}" width="{w:.1f}" height="7" rx="3.5" fill="{ACC}"/>'
+    more = (m.get("leetcode") or {}).get("andMoreCount", 0)
+    if more:
+        s += t(W - 30, H - 10, f"+{more} more sections tracked in the app", 11, MUTED, 400, "end")
+    return card(W, H, s)
+
+def leetcode_svg(d):
+    W, H = 900, 200
+    if not d:
+        return card(W, 120, t(25, 34, "leetcode", 17, TEXT, 600) + t(W / 2, 80, "leetcode stats unavailable right now - will retry on the next run", 13, MUTED, 400, "middle"))
+    s = t(25, 34, "leetcode", 17, TEXT, 600)
+    parts = [("easySolved", "#22c55e"), ("mediumSolved", "#f59e0b"), ("hardSolved", "#ef4444")]
+    tot = sum(d[k] for k, _ in parts) or 1
+    cx, cy, r, c = 110, 110, 52, 2 * 3.14159 * 52
+    off = 0
+    for k, col in parts:
+        ln = c * d[k] / tot
+        s += (f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{col}" stroke-width="14" '
+              f'stroke-dasharray="{ln:.1f} {c-ln:.1f}" stroke-dashoffset="{-off:.1f}" transform="rotate(-90 {cx} {cy})"/>')
+        off += ln
+    s += t(cx, cy + 6, d["totalSolved"], 22, TEXT, 700, "middle") + t(cx, cy + 24, f"of {d['totalQuestions']}", 10, MUTED, 400, "middle")
+    rank = f"#{d['ranking']:,}" if d.get("ranking") else "N/A"
+    for i, (lab, val) in enumerate([("ranking", rank), ("acceptance", f"{d['acceptance']:.1f}%")]):
+        x = 250 + i * 150
+        s += t(x, 90, val, 22, ACC, 700) + t(x, 110, lab, 12, MUTED)
+    for i, (lab, k, tk, col) in enumerate([("Easy", "easySolved", "totalEasy", "#22c55e"), ("Medium", "mediumSolved", "totalMedium", "#f59e0b"), ("Hard", "hardSolved", "totalHard", "#ef4444")]):
+        y = 76 + i * 34
+        w = 260 * d[k] / d[tk] if d[tk] else 0
+        s += t(560, y, lab, 12.5, TEXT) + t(W - 30, y, f"{d[k]}/{d[tk]}", 12, MUTED, 400, "end")
+        s += f'<rect x="560" y="{y+8}" width="260" height="7" rx="3.5" fill="{BORDER}"/><rect x="560" y="{y+8}" width="{w:.1f}" height="7" rx="3.5" fill="{col}"/>'
     return card(W, H, s)
 
 # ---------- readme blocks ----------
@@ -207,10 +245,11 @@ def main():
     (ROOT / "assets" / "langs.svg").write_text(langs_svg(gh["langs"]))
     (ROOT / "assets" / "activity.svg").write_text(activity_svg(gh["days"]))
     (ROOT / "assets" / "masteryos.svg").write_text(mastery_svg(fetch_mastery()))
+    (ROOT / "assets" / "leetcode.svg").write_text(leetcode_svg(fetch_leetcode()))
     r = (ROOT / "README.md").read_text()
     r = replace_block(r, "QUOTE", quote_md())
     r = replace_block(r, "PROJECTS", projects_md(deploys))
-    r = replace_block(r, "MASTERY", f'<p align="center"><img src="assets/masteryos.svg?v={v}" width="100%" /></p>')
+    r = replace_block(r, "MASTERY", f'<p align="center"><img src="assets/masteryos.svg?v={v}" width="100%" /></p>\n<p align="center"><img src="assets/leetcode.svg?v={v}" width="100%" /></p>')
     r = replace_block(r, "STATS",
         f'<p align="center"><img src="assets/stats.svg?v={v}" height="195" /> <img src="assets/langs.svg?v={v}" height="195" /></p>\n'
         f'<p align="center"><img src="assets/activity.svg?v={v}" width="100%" /></p>')

@@ -22,7 +22,6 @@ jobs:
           GH_USER: Sp2736
           GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
           MASTERYOS_STATS_URL: ${{ vars.MASTERYOS_STATS_URL }}
-          MASTERYOS_STATS_TOKEN: ${{ secrets.MASTERYOS_STATS_TOKEN }}
       - run: |
           git config user.name "profile-bot"
           git config user.email "profile-bot@users.noreply.github.com"
