@@ -13,17 +13,22 @@ concurrency: update-profile
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    env:
+      GH_USER: Sp2736
+      GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
+      GH_FALLBACK_TOKEN: ${{ github.token }}
+      MASTERYOS_STATS_URL: ${{ vars.MASTERYOS_STATS_URL }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python scripts/update.py
-        env:
-          GH_USER: Sp2736
-          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
-          MASTERYOS_STATS_URL: ${{ vars.MASTERYOS_STATS_URL }}
+        continue-on-error: true
       - run: |
-          git config user.name "profile-bot"
-          git config user.email "profile-bot@users.noreply.github.com"
+          git config user.name "Sp2736"
+          git config user.email "${{ github.actor_id }}+Sp2736@users.noreply.github.com"
+          date -u +%Y-%m-%dT%H:%M:%SZ > .last-run
           git add -A
-          git diff --cached --quiet || (git commit -m "chore: refresh profile" && git push)
+          git diff --cached --quiet || git commit -m "chore: refresh profile $(date -u +%F)"
+          git pull --rebase origin main
+          git push

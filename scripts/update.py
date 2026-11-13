@@ -6,16 +6,18 @@ from xml.sax.saxutils import escape as esc
 
 USER = os.environ.get("GH_USER", "Sp2736")
 TOKEN = os.environ.get("GH_TOKEN", "")
+FALLBACK_TOKEN = os.environ.get("GH_FALLBACK_TOKEN", "")
 ROOT = Path(__file__).resolve().parent.parent
 IST = dt.timezone(dt.timedelta(hours=5, minutes=30))
 BG, BORDER, TEXT, MUTED, ACC = "#0d1117", "#30363d", "#c9d1d9", "#8b949e", "#58a6ff"
 FONT = "Segoe UI,Ubuntu,Helvetica,Arial,sans-serif"
 
 # ---------- http ----------
-def http(url, payload=None, headers=None):
+def http(url, payload=None, headers=None, token=None):
+    tok = token or TOKEN
     h = {"User-Agent": "profile-readme", "Accept": "application/vnd.github+json"}
-    if TOKEN and "api.github.com" in url:
-        h["Authorization"] = f"Bearer {TOKEN}"
+    if tok and "api.github.com" in url:
+        h["Authorization"] = f"Bearer {tok}"
     h.update(headers or {})
     data = json.dumps(payload).encode() if payload is not None else None
     req = urllib.request.Request(url, data=data, headers=h)
@@ -31,7 +33,16 @@ QUERY = """query($login:String!){user(login:$login){
   name stargazerCount isPrivate languages(first:8,orderBy:{field:SIZE,direction:DESC}){edges{size node{name color}}}}}}}"""
 
 def fetch_github():
-    res = http("https://api.github.com/graphql", {"query": QUERY, "variables": {"login": USER}})
+    gql_url = "https://api.github.com/graphql"
+    payload = {"query": QUERY, "variables": {"login": USER}}
+    try:
+        res = http(gql_url, payload)
+    except urllib.error.HTTPError as e:
+        if e.code == 401 and FALLBACK_TOKEN and FALLBACK_TOKEN != TOKEN:
+            print("GH_TOKEN returned 401; retrying with GH_FALLBACK_TOKEN")
+            res = http(gql_url, payload, token=FALLBACK_TOKEN)
+        else:
+            raise
     u = res["data"]["user"]
     cc = u["contributionsCollection"]
     days = [(d["date"], d["contributionCount"])
