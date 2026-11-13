@@ -17,8 +17,8 @@
 ██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██║
 ██████╔╝███████║   ██║   █████╗  ██║
 ██╔═══╝ ██╔══██║   ██║   ██╔══╝  ██║
-██║     ██║  ██║   ██║   ███████╗███████╗
-╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚══════╝
+.....██║     ██║  ██║   ██║   ███████╗███████╗
+.....╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚══════╝
 
 </pre>
 <sub><code>01110011 01110111 01100001 01111001 01100001 01101101</code><br><code>01110000 01100001 01110100 01100101 01101100</code></sub>
@@ -77,12 +77,12 @@
 ## projects
 
 <!--PROJECTS_START-->
-- **[mastery-os](https://github.com/Sp2736/mastery-os)** · [demo](https://sp2736.github.io/mastery-os) <sub>deployed 2026-11-13</sub>
+- **[mastery-os](https://github.com/Sp2736/mastery-os)** · [demo](https://sp2736.github.io/mastery-os)
 - **[team-488-dealflow360](https://github.com/jalisa2106/team-488-dealflow360)**
-- **[asset-flow](https://github.com/Sp2736/asset-flow)** · [demo](https://sp2736.github.io/asset-flow) <sub>deployed 2026-11-07</sub>
-- **[counseling-reports-portal](https://github.com/Sp2736/counseling-reports-portal)** · [demo](https://sp2736.github.io/counseling-reports-portal) <sub>deployed 2026-11-13</sub>
-- **[arcade](https://github.com/Sp2736/arcade)** · [demo](https://sp2736.github.io/arcade) <sub>deployed 2026-11-13</sub>
-- **[finiq](https://github.com/Sp2736/finiq)** · [demo](https://sp2736.github.io/finiq) <sub>deployed 2026-11-13</sub>
+- **[asset-flow](https://github.com/Sp2736/asset-flow)** · [demo](https://sp2736.github.io/asset-flow)
+- **[counseling-reports-portal](https://github.com/Sp2736/counseling-reports-portal)** · [demo](https://sp2736.github.io/counseling-reports-portal)
+- **[arcade](https://github.com/Sp2736/arcade)** · [demo](https://sp2736.github.io/arcade)
+- **[finiq](https://github.com/Sp2736/finiq)** · [demo](https://sp2736.github.io/finiq)
 - **[data-mind](https://github.com/Sp2736/data-mind)**
 - **[dark-angel](MARKETPLACE-LINK-DARK-ANGEL)**
 - **[white-devil](MARKETPLACE-LINK-WHITE-DEVIL)**
@@ -90,7 +90,7 @@
 - **[blog-site-ui](https://wander-n-wonder.vercel.app)**
 - **[sukoon-dev](https://sukoondeveloper.com)**
 - **[auto-comment-vscode](MARKETPLACE-LINK-AUTO-COMMENT)**
-- **[team-488-dealflow360](https://github.com/Sp2736/team-488-dealflow360)** · [demo](https://sp2736.github.io/team-488-dealflow360) <sub>deployed 2026-11-08</sub>
+- **[team-488-dealflow360](https://github.com/Sp2736/team-488-dealflow360)** · [demo](https://sp2736.github.io/team-488-dealflow360)
 <!--PROJECTS_END-->
 
 ---
