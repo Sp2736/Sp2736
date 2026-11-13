@@ -1,3 +1,8 @@
+<!--QUOTE_START-->
+> **morning** - The future belongs to those who keep practising when it is not fun.
+<!--QUOTE_END-->
+---
+
 <div align="center">
 <pre>
 ███████╗██╗    ██╗ █████╗ ██╗   ██╗ █████╗ ███╗   ███╗
@@ -36,12 +41,6 @@
 ## focus
 
 `ai / llm engineering` · `forward deployed engineering` · `data science` · `data engineering` · `full-stack` · `swe`
-
----
-
-<!--QUOTE_START-->
-> **morning** - The future belongs to those who keep practising when it is not fun.
-<!--QUOTE_END-->
 
 ---
 
