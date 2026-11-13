@@ -34,4 +34,4 @@ In each project repo: **Settings -> Secrets and variables -> Actions** -> add se
 
 ## editing
 - Projects: `config/projects.json`. Replace the `MARKETPLACE-LINK-…` urls there.
-- Quotes: `quotes/morning.json` and `quotes/night.json` (366 each, edit freely).
+- Quotes: `quotes/day.json` and `quotes/night.json` (366 each, edit freely).

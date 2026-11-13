@@ -1,7 +1,7 @@
 name: update-profile
 on:
   schedule:
-    - cron: "30 0 * * *"    # 06:00 IST - morning quote
+    - cron: "30 0 * * *"    # 06:00 IST - day quote
     - cron: "30 15 * * *"   # 21:00 IST - night quote
     - cron: "15 */6 * * *"  # stats + gh-pages deploy scan
   workflow_dispatch:

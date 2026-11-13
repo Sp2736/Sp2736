@@ -1,5 +1,5 @@
 <!--QUOTE_START-->
-> **morning** - The future belongs to those who keep practising when it is not fun.
+> **day** - The future belongs to those who keep practising when it is not fun.
 <!--QUOTE_END-->
 ---
 

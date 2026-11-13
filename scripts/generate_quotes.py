@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""One-off: writes quotes/morning.json and quotes/night.json (366 original quotes each) via the Anthropic API."""
+"""One-off: writes quotes/day.json and quotes/night.json (366 original quotes each) via the Anthropic API."""
 import os, json, urllib.request
 from pathlib import Path
 
 KEY, MODEL = os.environ["ANTHROPIC_API_KEY"], os.environ.get("QUOTE_MODEL", "claude-sonnet-5-5")
 OUT = Path(__file__).resolve().parent.parent / "quotes"
 KINDS = {
-    "morning": "morning motivation: energising, forward-looking, about starting, discipline, building, courage",
+    "day": "daytime motivation: energising, forward-looking, about starting, discipline, building, courage",
     "night": "night life lesson: reflective, calm, about rest, gratitude, mistakes, relationships, time, perspective",
 }
 THEMES = ["focus and discipline", "resilience and failure", "learning and curiosity", "people and kindness",

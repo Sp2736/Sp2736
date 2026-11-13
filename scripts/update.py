@@ -213,7 +213,7 @@ def quote_md(now=None):
     morning = 6 <= now.hour < 18
     doy = (now - dt.timedelta(hours=6)).timetuple().tm_yday
     if morning:
-        q, label = load("morning.json", ["Start before you feel ready."]), "morning"
+        q, label = load("day.json", ["Start before you feel ready."]), "day"
     else:
         q, label = load("night.json", ["Rest is part of the work."]), "night"
     return f"> **{label}** - {q[(doy - 1) % len(q)]}"
