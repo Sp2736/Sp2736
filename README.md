@@ -14,6 +14,7 @@
 ██╔═══╝ ██╔══██║   ██║   ██╔══╝  ██║
 ██║     ██║  ██║   ██║   ███████╗███████╗
 ╚═╝     ╚═╝  ╚═╝   ╚═╝   ╚══════╝╚══════╝
+
 </pre>
 <sub><code>01110011 01110111 01100001 01111001 01100001 01101101</code><br><code>01110000 01100001 01110100 01100101 01101100</code></sub>
 </div>
@@ -35,6 +36,12 @@
 ## focus
 
 `ai / llm engineering` · `forward deployed engineering` · `data science` · `data engineering` · `full-stack` · `swe`
+
+---
+
+<!--QUOTE_START-->
+> **morning** - start before you feel ready.
+<!--QUOTE_END-->
 
 ---
 
@@ -70,6 +77,7 @@
 
 ## projects
 
+<!--PROJECTS_START-->
 - **[mastery-os](https://github.com/Sp2736/mastery-os)** · [demo](https://sp2736.github.io/mastery-os)
 - **[team-488-dealflow360](https://github.com/jalisa2106/team-488-dealflow360)**
 - **[asset-flow](https://github.com/Sp2736/asset-flow)** · [demo](https://sp2736.github.io/asset-flow)
@@ -83,6 +91,7 @@
 - **[blog-site-ui](https://wander-n-wonder.vercel.app)**
 - **[sukoon-dev](https://sukoondeveloper.com)**
 - **[auto-comment-vscode](MARKETPLACE-LINK-AUTO-COMMENT)**
+<!--PROJECTS_END-->
 
 ---
 
@@ -98,13 +107,18 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 
 ---
 
+## masteryOS usage
+
+<!--MASTERY_START-->
+<!--MASTERY_END-->
+
+---
+
 ## github
 
 <p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=Sp2736&show_icons=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
-  <img height="160" src="https://github-readme-streak-stats.herokuapp.com/?user=Sp2736&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" />
+  <img src="https://streak-stats.demolab.com/?user=Sp2736&hide_border=true&background=0d1117&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9&dates=8b949e" />
 </p>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sp2736&theme=react-dark&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff" />
-</p>
+<!--STATS_START-->
+<!--STATS_END-->
