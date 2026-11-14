@@ -1,0 +1,52 @@
+name: keepalive
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  Streak & Contribution Keeper
+#  Runs on its own separate schedule so the contribution graph stays green
+#  even when update-profile.yml produces no diff.
+#
+#  Cadence (IST = UTC+5:30):
+#    • 09:00 IST  — morning log entry
+#    • 13:00 IST  — midday log entry
+#    • 23:30 IST  — night log entry  (safety net if 18:00 quote didn't commit)
+#
+#  Each run appends one line to .streak-log and hard-bumps .last-run, so
+#  git always sees a diff and always commits — keeping the green square.
+# ─────────────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    - cron: "30 3 * * *"    # 09:00 IST
+    - cron: "30 7 * * *"    # 13:00 IST
+    - cron: "0 18 * * *"    # 23:30 IST  — late-night safety net
+  workflow_dispatch:         # manual trigger for testing
+
+permissions:
+  contents: write
+
+concurrency:
+  group: keepalive
+  cancel-in-progress: false
+
+jobs:
+  keep:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Write heartbeat
+        run: |
+          TS=$(date -u +%Y-%m-%dT%H:%M:%SZ)
+          echo "$TS" >> .streak-log
+          echo "$TS" > .last-run
+          # Keep .streak-log trimmed to last 90 lines (3 entries/day × 30 days)
+          tail -90 .streak-log > .streak-log.tmp && mv .streak-log.tmp .streak-log
+
+      - name: Commit heartbeat
+        run: |
+          git config user.name  "Sp2736"
+          git config user.email "${{ github.actor_id }}+Sp2736@users.noreply.github.com"
+          git add .streak-log .last-run
+          git diff --cached --quiet || git commit -m "chore: keepalive $(date -u +%F\ %H:%M)Z"
+          git pull --rebase origin main
+          git push
