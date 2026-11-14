@@ -62,12 +62,52 @@ def fetch_github():
     }
 
 def fetch_deploys(repos):
-    """last gh-pages commit date per repo = last successful gh-pages deployment"""
+    """Returns {repo: {"first": YYYY-MM-DD, "last": YYYY-MM-DD}} for repos with gh-pages branches.
+    'first' = earliest commit on gh-pages (when the site first went live).
+    'last'  = most recent commit on gh-pages (last workflow run / update).
+    """
     out = {}
     for n in repos:
         try:
+            # most recent commit on gh-pages
             b = http(f"https://api.github.com/repos/{USER}/{n}/branches/gh-pages")
-            out[n] = b["commit"]["commit"]["committer"]["date"][:10]
+            last_date = b["commit"]["commit"]["committer"]["date"][:10]
+            # walk back to the root commit to find the very first commit on gh-pages
+            first_date = last_date  # fallback
+            try:
+                # GitHub commits API – paginate to last page to find oldest commit.
+                # per_page=1 + Link header gives us the page count in one round-trip.
+                url1 = f"https://api.github.com/repos/{USER}/{n}/commits?sha=gh-pages&per_page=1"
+                tok = TOKEN or FALLBACK_TOKEN
+                h = {"User-Agent": "profile-readme", "Accept": "application/vnd.github+json"}
+                if tok:
+                    h["Authorization"] = f"Bearer {tok}"
+                req = urllib.request.Request(url1, headers=h)
+                with urllib.request.urlopen(req, timeout=30) as r:
+                    link = r.headers.get("Link", "")
+                    body = json.load(r)
+                # parse last page number from Link header
+                last_page = 1
+                for part in link.split(","):
+                    part = part.strip()
+                    if 'rel="last"' in part:
+                        m = re.search(r'[?&]page=(\d+)', part)
+                        if m:
+                            last_page = int(m.group(1))
+                # fetch the oldest commit
+                if last_page > 1:
+                    url_last = f"https://api.github.com/repos/{USER}/{n}/commits?sha=gh-pages&per_page=1&page={last_page}"
+                    req2 = urllib.request.Request(url_last, headers=h)
+                    with urllib.request.urlopen(req2, timeout=30) as r2:
+                        oldest = json.load(r2)
+                    first_date = oldest[0]["commit"]["committer"]["date"][:10]
+                else:
+                    # only one commit page – use the single result we already have
+                    if body:
+                        first_date = body[-1]["commit"]["committer"]["date"][:10]
+            except Exception as e:
+                print(f"  gh-pages first-commit fetch failed for {n}: {e}")
+            out[n] = {"first": first_date, "last": last_date}
         except urllib.error.HTTPError:
             pass
     return out
@@ -220,10 +260,14 @@ def load(name, fallback):
         return fallback
 
 def quote_md(now=None):
+    """Select day quote (06:00–17:59 IST) or night quote (18:00–05:59 IST).
+    Quote index cycles daily using the calendar day-of-year in IST.
+    """
     now = now or dt.datetime.now(IST)
-    morning = 6 <= now.hour < 18
-    doy = (now - dt.timedelta(hours=6)).timetuple().tm_yday
-    if morning:
+    # day = 06:00 IST to 17:59 IST; night = 18:00 IST to 05:59 IST next day
+    is_day = 6 <= now.hour < 18
+    doy = now.timetuple().tm_yday  # use IST calendar day directly
+    if is_day:
         q, label = load("day.json", ["Start before you feel ready."]), "day"
     else:
         q, label = load("night.json", ["Rest is part of the work."]), "night"
@@ -236,15 +280,22 @@ def projects_md(deploys):
         repo = p.get("repo")
         known.add(repo)
         line = f"- **[{p['name']}]({p['url']})**"
-        dep = deploys.get(repo)
+        dep = deploys.get(repo)  # {"first": ..., "last": ...} or None
         if p.get("demo") or dep:
             line += f" · [demo](https://{USER.lower()}.github.io/{repo})"
         if dep:
-            line += f" <sub>deployed {dep}</sub>"
+            if dep["first"] == dep["last"]:
+                line += f" <sub>live {dep['last']}</sub>"
+            else:
+                line += f" <sub>live {dep['first']} · updated {dep['last']}</sub>"
         lines.append(line)
-    for repo, dep in sorted(deploys.items(), key=lambda kv: kv[1], reverse=True):
+    for repo, dep in sorted(deploys.items(), key=lambda kv: kv[1]["last"], reverse=True):
         if repo not in known and repo.lower() != USER.lower():
-            lines.append(f"- **[{repo}](https://github.com/{USER}/{repo})** · [demo](https://{USER.lower()}.github.io/{repo}) <sub>deployed {dep}</sub>")
+            if dep["first"] == dep["last"]:
+                dates = f"live {dep['last']}"
+            else:
+                dates = f"live {dep['first']} · updated {dep['last']}"
+            lines.append(f"- **[{repo}](https://github.com/{USER}/{repo})** · [demo](https://{USER.lower()}.github.io/{repo}) <sub>{dates}</sub>")
     return "\n".join(lines)
 
 def main():

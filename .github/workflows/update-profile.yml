@@ -1,9 +1,9 @@
 name: update-profile
 on:
   schedule:
-    - cron: "30 0 * * *"    # 06:00 IST - day quote
-    - cron: "30 15 * * *"   # 21:00 IST - night quote
-    - cron: "15 */6 * * *"  # stats + gh-pages deploy scan
+    - cron: "30 0 * * *"    # 06:00 IST (UTC+5:30) - day quote
+    - cron: "30 12 * * *"   # 18:00 IST (UTC+5:30) - night quote
+    - cron: "15 */6 * * *"  # stats + gh-pages deploy scan (every 6 h)
   workflow_dispatch:
   repository_dispatch:
     types: [project-deployed]
