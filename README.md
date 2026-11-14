@@ -1,5 +1,5 @@
 <!--QUOTE_START-->
-> **night** - Tonight, the only task is to be done.
+> **night** - What you could not finish today was not your final chance.
 <!--QUOTE_END-->
 ---
 
@@ -109,8 +109,8 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 ## masteryOS + leetcode
 
 <!--MASTERY_START-->
-<p align="center"><img src="assets/masteryos.svg?v=1794679351" width="100%" /></p>
-<p align="center"><img src="assets/leetcode.svg?v=1794679351" width="100%" /></p>
+<p align="center"><img src="assets/masteryos.svg?v=1794681213" width="100%" /></p>
+<p align="center"><img src="assets/leetcode.svg?v=1794681213" width="100%" /></p>
 <!--MASTERY_END-->
 
 ---
@@ -122,6 +122,6 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 </p>
 
 <!--STATS_START-->
-<p align="center"><img src="assets/stats.svg?v=1794679351" height="195" /> <img src="assets/langs.svg?v=1794679351" height="195" /></p>
-<p align="center"><img src="assets/activity.svg?v=1794679351" width="100%" /></p>
+<p align="center"><img src="assets/stats.svg?v=1794681213" height="195" /> <img src="assets/langs.svg?v=1794681213" height="195" /></p>
+<p align="center"><img src="assets/activity.svg?v=1794681213" width="100%" /></p>
 <!--STATS_END-->
