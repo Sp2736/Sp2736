@@ -1,5 +1,5 @@
 <!--QUOTE_START-->
-> **day** - Share what you know; knowledge grows when passed along.
+> **night** - Tonight, the only task is to be done.
 <!--QUOTE_END-->
 ---
 
@@ -77,12 +77,12 @@
 ## projects
 
 <!--PROJECTS_START-->
-- **[mastery-os](https://github.com/Sp2736/mastery-os)** · [demo](https://sp2736.github.io/mastery-os) <sub>deployed 2026-11-13</sub>
-- **[team-488-dealflow360](https://github.com/jalisa2106/team-488-dealflow360)** · [demo](https://sp2736.github.io/team-488-dealflow360) <sub>deployed 2026-11-08</sub>
-- **[asset-flow](https://github.com/Sp2736/asset-flow)** · [demo](https://sp2736.github.io/asset-flow) <sub>deployed 2026-11-07</sub>
-- **[counseling-reports-portal](https://github.com/Sp2736/counseling-reports-portal)** · [demo](https://sp2736.github.io/counseling-reports-portal) <sub>deployed 2026-11-13</sub>
-- **[arcade](https://github.com/Sp2736/arcade)** · [demo](https://sp2736.github.io/arcade) <sub>deployed 2026-11-13</sub>
-- **[finiq](https://github.com/Sp2736/finiq)** · [demo](https://sp2736.github.io/finiq) <sub>deployed 2026-11-13</sub>
+- **[mastery-os](https://github.com/Sp2736/mastery-os)** · [demo](https://sp2736.github.io/mastery-os) <sub>live 2026-07-26 · updated 2026-11-13</sub>
+- **[team-488-dealflow360](https://github.com/Sp2736/team-488-dealflow360)** · [demo](https://sp2736.github.io/team-488-dealflow360) <sub>live 2026-09-05 · updated 2026-11-08</sub>
+- **[asset-flow](https://github.com/Sp2736/asset-flow)** · [demo](https://sp2736.github.io/asset-flow) <sub>live 2026-07-12 · updated 2026-11-07</sub>
+- **[counseling-reports-portal](https://github.com/Sp2736/counseling-reports-portal)** · [demo](https://sp2736.github.io/counseling-reports-portal) <sub>live 2026-03-19 · updated 2026-11-13</sub>
+- **[arcade](https://github.com/Sp2736/arcade)** · [demo](https://sp2736.github.io/arcade) <sub>live 2026-01-25 · updated 2026-11-13</sub>
+- **[finiq](https://github.com/Sp2736/finiq)** · [demo](https://sp2736.github.io/finiq) <sub>live 2026-04-16 · updated 2026-11-13</sub>
 - **[data-mind](https://github.com/Sp2736/data-mind)**
 - **[dark-angel](https://github.com/Sp2736/dark-angel)**
 - **[white-devil](https://github.com/Sp2736/white-devil)**
@@ -109,8 +109,8 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 ## masteryOS + leetcode
 
 <!--MASTERY_START-->
-<p align="center"><img src="assets/masteryos.svg?v=1794639123" width="100%" /></p>
-<p align="center"><img src="assets/leetcode.svg?v=1794639123" width="100%" /></p>
+<p align="center"><img src="assets/masteryos.svg?v=1794679351" width="100%" /></p>
+<p align="center"><img src="assets/leetcode.svg?v=1794679351" width="100%" /></p>
 <!--MASTERY_END-->
 
 ---
@@ -122,6 +122,6 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 </p>
 
 <!--STATS_START-->
-<p align="center"><img src="assets/stats.svg?v=1794639123" height="195" /> <img src="assets/langs.svg?v=1794639123" height="195" /></p>
-<p align="center"><img src="assets/activity.svg?v=1794639123" width="100%" /></p>
+<p align="center"><img src="assets/stats.svg?v=1794679351" height="195" /> <img src="assets/langs.svg?v=1794679351" height="195" /></p>
+<p align="center"><img src="assets/activity.svg?v=1794679351" width="100%" /></p>
 <!--STATS_END-->
