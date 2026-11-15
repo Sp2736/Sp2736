@@ -1,5 +1,5 @@
 <!--QUOTE_START-->
-> **day** - Debug your thinking the same way you debug your code.
+> **night** - Your inner voice sounds louder at night; speak to it kindly.
 <!--QUOTE_END-->
 ---
 
@@ -77,8 +77,8 @@
 ## projects
 
 <!--PROJECTS_START-->
-- **[mastery-os](https://github.com/Sp2736/mastery-os)** · [demo](https://sp2736.github.io/mastery-os) <sub>live 2026-07-26 · updated 2026-11-13</sub>
-- **[team-488-dealflow360](https://github.com/Sp2736/team-488-dealflow360)** · [demo](https://sp2736.github.io/team-488-dealflow360) <sub>live 2026-09-05 · updated 2026-11-08</sub>
+- **[mastery-os](https://github.com/Sp2736/mastery-os)** · [demo](https://sp2736.github.io/mastery-os) <sub>live 2026-07-26 · updated 2026-11-15</sub>
+- **[team-488-dealflow360](https://github.com/Sp2736/team-488-dealflow360)** · [demo](https://sp2736.github.io/team-488-dealflow360) <sub>live 2026-09-05 · updated 2026-11-15</sub>
 - **[asset-flow](https://github.com/Sp2736/asset-flow)** · [demo](https://sp2736.github.io/asset-flow) <sub>live 2026-07-12 · updated 2026-11-07</sub>
 - **[counseling-reports-portal](https://github.com/Sp2736/counseling-reports-portal)** · [demo](https://sp2736.github.io/counseling-reports-portal) <sub>live 2026-03-19 · updated 2026-11-13</sub>
 - **[arcade](https://github.com/Sp2736/arcade)** · [demo](https://sp2736.github.io/arcade) <sub>live 2026-01-25 · updated 2026-11-13</sub>
@@ -109,8 +109,8 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 ## masteryOS + leetcode
 
 <!--MASTERY_START-->
-<p align="center"><img src="assets/masteryos.svg?v=1794725806" width="100%" /></p>
-<p align="center"><img src="assets/leetcode.svg?v=1794725806" width="100%" /></p>
+<p align="center"><img src="assets/masteryos.svg?v=1794768736" width="100%" /></p>
+<p align="center"><img src="assets/leetcode.svg?v=1794768736" width="100%" /></p>
 <!--MASTERY_END-->
 
 ---
@@ -122,6 +122,6 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 </p>
 
 <!--STATS_START-->
-<p align="center"><img src="assets/stats.svg?v=1794725806" height="195" /> <img src="assets/langs.svg?v=1794725806" height="195" /></p>
-<p align="center"><img src="assets/activity.svg?v=1794725806" width="100%" /></p>
+<p align="center"><img src="assets/stats.svg?v=1794768736" height="195" /> <img src="assets/langs.svg?v=1794768736" height="195" /></p>
+<p align="center"><img src="assets/activity.svg?v=1794768736" width="100%" /></p>
 <!--STATS_END-->
