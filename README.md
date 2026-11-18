@@ -1,5 +1,5 @@
 <!--QUOTE_START-->
-> **night** - Be loyal to your values on the days when it costs something.
+> **day** - Your portfolio is built one finished project at a time.
 <!--QUOTE_END-->
 ---
 
@@ -109,8 +109,8 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 ## masteryOS + leetcode
 
 <!--MASTERY_START-->
-<p align="center"><img src="assets/masteryos.svg?v=1794949825" width="100%" /></p>
-<p align="center"><img src="assets/leetcode.svg?v=1794949825" width="100%" /></p>
+<p align="center"><img src="assets/masteryos.svg?v=1794987010" width="100%" /></p>
+<p align="center"><img src="assets/leetcode.svg?v=1794987010" width="100%" /></p>
 <!--MASTERY_END-->
 
 ---
@@ -122,6 +122,6 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 </p>
 
 <!--STATS_START-->
-<p align="center"><img src="assets/stats.svg?v=1794949825" height="195" /> <img src="assets/langs.svg?v=1794949825" height="195" /></p>
-<p align="center"><img src="assets/activity.svg?v=1794949825" width="100%" /></p>
+<p align="center"><img src="assets/stats.svg?v=1794987010" height="195" /> <img src="assets/langs.svg?v=1794987010" height="195" /></p>
+<p align="center"><img src="assets/activity.svg?v=1794987010" width="100%" /></p>
 <!--STATS_END-->
