@@ -1,5 +1,5 @@
 <!--QUOTE_START-->
-> **day** - Turn your worry into a to-do list.
+> **night** - Say thank you to the day, then let it go.
 <!--QUOTE_END-->
 ---
 
@@ -109,8 +109,8 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 ## masteryOS + leetcode
 
 <!--MASTERY_START-->
-<p align="center"><img src="assets/masteryos.svg?v=1795074313" width="100%" /></p>
-<p align="center"><img src="assets/leetcode.svg?v=1795074313" width="100%" /></p>
+<p align="center"><img src="assets/masteryos.svg?v=1795120711" width="100%" /></p>
+<p align="center"><img src="assets/leetcode.svg?v=1795120711" width="100%" /></p>
 <!--MASTERY_END-->
 
 ---
@@ -122,6 +122,6 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 </p>
 
 <!--STATS_START-->
-<p align="center"><img src="assets/stats.svg?v=1795074313" height="195" /> <img src="assets/langs.svg?v=1795074313" height="195" /></p>
-<p align="center"><img src="assets/activity.svg?v=1795074313" width="100%" /></p>
+<p align="center"><img src="assets/stats.svg?v=1795120711" height="195" /> <img src="assets/langs.svg?v=1795120711" height="195" /></p>
+<p align="center"><img src="assets/activity.svg?v=1795120711" width="100%" /></p>
 <!--STATS_END-->
