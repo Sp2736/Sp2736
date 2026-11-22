@@ -1,5 +1,5 @@
 <!--QUOTE_START-->
-> **day** - Make a list of three, finish the first, and let the rest follow.
+> **night** - Treat tonight like a place you can be safe in.
 <!--QUOTE_END-->
 ---
 
@@ -109,8 +109,8 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 ## masteryOS + leetcode
 
 <!--MASTERY_START-->
-<p align="center"><img src="assets/masteryos.svg?v=1795331738" width="100%" /></p>
-<p align="center"><img src="assets/leetcode.svg?v=1795331738" width="100%" /></p>
+<p align="center"><img src="assets/masteryos.svg?v=1795376485" width="100%" /></p>
+<p align="center"><img src="assets/leetcode.svg?v=1795376485" width="100%" /></p>
 <!--MASTERY_END-->
 
 ---
@@ -122,6 +122,6 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 </p>
 
 <!--STATS_START-->
-<p align="center"><img src="assets/stats.svg?v=1795331738" height="195" /> <img src="assets/langs.svg?v=1795331738" height="195" /></p>
-<p align="center"><img src="assets/activity.svg?v=1795331738" width="100%" /></p>
+<p align="center"><img src="assets/stats.svg?v=1795376485" height="195" /> <img src="assets/langs.svg?v=1795376485" height="195" /></p>
+<p align="center"><img src="assets/activity.svg?v=1795376485" width="100%" /></p>
 <!--STATS_END-->
