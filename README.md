@@ -1,5 +1,5 @@
 <!--QUOTE_START-->
-> **day** - Your comfort zone is a nice place with very little growth.
+> **night** - Wisdom is knowing when to stop for the day.
 <!--QUOTE_END-->
 ---
 
@@ -109,8 +109,8 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 ## masteryOS + leetcode
 
 <!--MASTERY_START-->
-<p align="center"><img src="assets/masteryos.svg?v=1795420752" width="100%" /></p>
-<p align="center"><img src="assets/leetcode.svg?v=1795420752" width="100%" /></p>
+<p align="center"><img src="assets/masteryos.svg?v=1795478099" width="100%" /></p>
+<p align="center"><img src="assets/leetcode.svg?v=1795478099" width="100%" /></p>
 <!--MASTERY_END-->
 
 ---
@@ -122,6 +122,6 @@ author of *[Before I Learned Goodbye](https://ebooks.bookleafpub.com/product-pag
 </p>
 
 <!--STATS_START-->
-<p align="center"><img src="assets/stats.svg?v=1795420752" height="195" /> <img src="assets/langs.svg?v=1795420752" height="195" /></p>
-<p align="center"><img src="assets/activity.svg?v=1795420752" width="100%" /></p>
+<p align="center"><img src="assets/stats.svg?v=1795478099" height="195" /> <img src="assets/langs.svg?v=1795478099" height="195" /></p>
+<p align="center"><img src="assets/activity.svg?v=1795478099" width="100%" /></p>
 <!--STATS_END-->
